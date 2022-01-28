@@ -5,8 +5,13 @@ body {
 /* Navigation Bar */
 .navbar {
     border: 1px solid black;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.left_rectangle {
+    position: relative;
 }
 
 /* ------------------------------------- */
