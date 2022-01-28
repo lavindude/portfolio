@@ -1,0 +1,97 @@
+body {
+    background-color: #FFEDAD;
+}
+
+/* Left Decorations: */
+.left_decorations {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "stackL";
+    position: absolute;
+    left: 50px;
+    top: 10%;
+}
+
+#circleL1 {
+    grid-area: "stackL";
+    align-self: center;
+    justify-self: center;
+}
+
+#triangleL1 {
+    grid-area: "stackL";
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+#circleL2 {
+    grid-area: "stackL";
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+#triangleL2 {
+    grid-area: "stackL";
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+#circleL3 {
+    grid-area: "stackL";
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+/* ------------------------------------------- */
+
+/* Right Decorations: */
+.right_decorations {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "stackR";
+    position: absolute;
+    right: 50px;
+    top: 10%;
+}
+
+#circleR1 {
+    grid-area: "stackR";
+    align-self: center;
+    justify-self: center;
+}
+
+#triangleR1 {
+    grid-area: "stackR";
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+#circleR2 {
+    grid-area: "stackR";
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+#triangleR2 {
+    grid-area: "stackR";
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+#circleR3 {
+    grid-area: "stackR";
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+/* ------------------------------------------- */
