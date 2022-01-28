@@ -2,6 +2,15 @@ body {
     background-color: #FFEDAD;
 }
 
+/* Navigation Bar */
+.navbar {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------------- */
+
 /* Left Decorations: */
 .left_decorations {
     display: grid;
@@ -10,7 +19,7 @@ body {
     grid-template-areas: "stackL";
     position: absolute;
     left: 50px;
-    top: 10%;
+    top: 180px;
 }
 
 #circleL1 {
@@ -57,7 +66,7 @@ body {
     grid-template-areas: "stackR";
     position: absolute;
     right: 50px;
-    top: 10%;
+    top: 180px;
 }
 
 #circleR1 {
