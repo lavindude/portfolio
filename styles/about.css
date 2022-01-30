@@ -2,6 +2,24 @@ body {
     background-color: #FFEDAD;
 }
 
+/* Fonts */
+@font-face {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ChakraPetch/chakra-petch-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/ChakraPetch/chakra-petch-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ChakraPetch/chakra-petch-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/ChakraPetch/chakra-petch-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/ChakraPetch/chakra-petch-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ChakraPetch/chakra-petch-v8-latin-regular.svg#ChakraPetch') format('svg'); /* Legacy iOS */
+}
+
+a {
+    text-decoration: none;
+}
+
 /* Navigation Bar */
 .navbar_parent {
     text-align: center;
@@ -26,6 +44,60 @@ body {
 }
 
 /* ------------------------------------- */
+
+/* Text container */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#about_title {
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 60px;
+    font-family: 'Chakra Petch';
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.content_container {
+    margin: auto;
+    width: 800px;
+    margin-block-start: 3em;
+}
+
+#about_part_1 {
+    font-family: 'Chakra Petch';
+    font-size: 24px;
+}
+
+#about_part_2 {
+    font-family: 'Chakra Petch';
+    font-size: 24px;
+}
+
+#link_to_projects {
+    font-family: 'Chakra Petch';
+    border-radius: 35px;
+    border-color: #62FF68;
+    font-size: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #62FF68;
+}
 
 /* Left Decorations: */
 .left_decorations {
@@ -66,6 +138,13 @@ body {
 }
 
 #circleL3 {
+    grid-area: "stackL";
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+#triangleL3 {
     grid-area: "stackL";
     align-self: center;
     justify-self: center;
@@ -114,6 +193,13 @@ body {
 
 #circleR3 {
     grid-area: "stackR";
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+#triangleR3 {
+    grid-area: "stackL";
     align-self: center;
     justify-self: center;
     padding: 10px;
