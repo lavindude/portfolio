@@ -16,6 +16,125 @@
                 <a href="projects.html">Projects</a>
             </div>
         </div>
+        <div class="content">
+            <p>Projects</p>
+            <div class="covid_map">
+                <img id="map" src="images/covid_map.svg">
+                <p>1. <a href="">https://trends-covid-map.herokuapp.com/</a></p>
+                <p>
+                    The way this application works is there is a python script that runs 
+                    at 6:30am PST everyday to update the database. This script gathers data 
+                    from an API and inputs that data into a database. Next, a different script 
+                    uses linear regression on each state to find the slope of a line of best fit 
+                    for the last 11 days. The color of the state is green if the slope is negative, 
+                    yellow if moderate, and red if positive. I set these scripts to run automatically 
+                    so I do not have to manually do it everyday. That is how I managed the server side. 
+                    I used HTML and CSS to display my work on a website. I used PHP to access data from 
+                    the database and color each state depending on the data. 
+                </p>
+                <p>
+                    Languages/Technolgies used: HTML, CSS, Python, PHP, SQL
+                </p>
+                <p>
+                    GitHub Repository: <a href="">https://github.com/lavindude/USCOVID</a>
+                </p>
+            </div>
+            <div class="workmanager">
+                <img id="workmanager_ss" src="images/work_management_ss.svg">
+                <p>2. <a href="">https://workmanager3.herokuapp.com/</a></p>
+                <p>
+                    I made an online work management application. As you can see in the screenshot above, 
+                    users can do many things to have all of their important information in one place, such as 
+                    important zoom links or their personal calendar. I found myself storing things across multiple tabs, 
+                    like Google calendar and Notion so I realized it would be much easier if everything was on one page 
+                    instead of multiple tabs. 
+                </p>
+                <p>
+                    Languages/Technologies used: HTML, CSS, PHP, SQL
+                </p>
+                <p>
+                    GitHub Repository: <a href="">https://github.com/lavindude/workmanager_public</a>
+                </p>
+            </div>
+            <div class="cannon_ball">
+                <img id="cannonball_gif" src="images/cannonball.gif">
+                <p>3. Cannon Ball!</p>
+                <p>
+                    I made a simple game, where cubes fall from the top of the screen and the player has to shoot a 
+                    cannon (from the bottom right corner) to destroy the cubes. If the cube touches the ground, the game is over. 
+                    Only one cannon can be present on the screen at any given time so the user cannot spam click cannons. Objects 
+                    that go out of the view are destroyed to improve performance and cleanliness. 
+                </p>
+                <p>
+                    Languages/Technologies used: Unity, C#, Visual Studio
+                </p>
+                <p>
+                    GitHub Repository: <a href="">https://github.com/lavindude/cannonball</a>
+                </p>
+            </div>
+            <div class="calendar_bot">
+                <img id="calendar_bot_ss1" src="images/calendar_bot_ss_1.svg">
+                <img id="calendar_bot_ss2" src="images/calendar_bot_ss_2.svg">
+                <p>4. Calendar Discord Bot</p>
+                <p>
+                    This is a discord bot that can keep track of events or deadlines in a discord server. For example, 
+                    typing the command !addEvent 1.2 HW to AP Calc 9/4/2020 will parse the string and create a new row in 
+                    a database table with the event type, date, and subject (which is the channel the event was added in). 
+                </p>
+                <p>
+                    Languages/Technologies used: Python, Heroku, PostgreSQL
+                </p>
+                <p>
+                    GitHub Repository: <a href="">https://github.com/lavindude/Calendar-Discord-Bot</a>
+                </p>
+            </div>
+            <div class="management_bot">
+                <img id="management_bot_ss" src="images/management_bot_ss.svg">
+                <p>
+                    5. Server Management Discord Bot
+                </p>
+                <p>
+                    This bot can do basic server management functions. It can delete spam by using an algorithm that checks 
+                    for the interval between messages from a particular user. If the spam algorithm detects spam twice 
+                    consecutively by the same user, the user gets muted and send a message to the server admin. This way a 
+                    real human can check if this was indeed spam or if a user typed really fast. The bot also greets new members 
+                    of the server when they join. This was the first big programming project I completed outside of school, so if 
+                    you look in the Main.java file, you may notice that all of my other projects were written in a more modular 
+                    and organized style than this one. 
+                </p>
+                <p>
+                    Languages/Technologies used: Java, Heroku
+                </p>
+                <p>
+                    GitHub Repository: <a href="">https://github.com/lavindude/ManagementBot</a>
+                </p>
+            </div>
+            <p>Mini-Projects</p>
+            <div class="nfl_data_science">
+                <p>
+                    One small project I did about a year ago was an analysis of the Seattle Seahawks. I did some data filtering 
+                    and then found a line of best fit to model the trend.
+                </p>
+                <img id="nfl_ss" src="images/nfl_ss.svg">
+                <p>
+                    GitHub Repository: <a href="">https://github.com/lavindude/NFL-Data-Science-Project</a>
+                </p>
+            </div>
+            <div class="notification_system">
+                <p>
+                    Another project I made was an election notification system. The 2020 presidential election went a few days 
+                    after election day and I wanted to get updates as soon as they were available. It was annoying to check election 
+                    data every few minutes so I built a system that would notify me anytime the data changed. That way I could work 
+                    without me having to worry if new election data came out.
+                </p>
+                <img id="notification_ss" src="images/election_ss.svg">
+                <p>GitHub Repository: <a href="">https://github.com/lavindude/Election_Notification</a></p>
+            </div>
+            <p>
+                Thank you for viewing my projects, I hope you enjoyed! If you were wondering, this website is hosted on GitHub and 
+                was made using HTML, CSS, and JavaScript. This is the source code for this project: <a href="">[URL]</a>
+            </p>
+        </div>
         <div class="left_decorations">
             <img id="circleL1" src="images/circle.svg">
             <img id="triangleL1" src="images/triangle.svg">
