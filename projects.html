@@ -20,7 +20,7 @@
             <p id="page_title">Projects</p>
             <div class="covid_map">
                 <img id="map" src="images/covid_map.svg">
-                <p>1. <a href="https://trends-covid-map.herokuapp.com" target="_blank">
+                <p id="project_titles">1. <a href="https://trends-covid-map.herokuapp.com" target="_blank">
                     https://trends-covid-map.herokuapp.com</a></p>
                 <p id="explanations">
                     The way this application works is there is a python script that runs 
@@ -43,7 +43,7 @@
             </div>
             <div class="workmanager">
                 <img id="workmanager_ss" src="images/work_management_ss.svg">
-                <p>2. <a href="https://workmanager3.herokuapp.com" target="_blank">
+                <p id="project_titles">2. <a href="https://workmanager3.herokuapp.com" target="_blank">
                     https://workmanager3.herokuapp.com</a></p>
                 <p id="explanations">
                     I made an online work management application. As you can see in the screenshot above, 
@@ -62,7 +62,7 @@
             </div>
             <div class="cannon_ball">
                 <img id="cannonball_gif" src="images/cannonball.gif">
-                <p>3. Cannon Ball!</p>
+                <p id="project_titles">3. Cannon Ball!</p>
                 <p id="explanations">
                     I made a simple game, where cubes fall from the top of the screen and the player has to shoot a 
                     cannon (from the bottom right corner) to destroy the cubes. If the cube touches the ground, the game is over. 
@@ -76,17 +76,19 @@
                     GitHub Repository: <a href="https://github.com/lavindude/cannonball" target="_blank">
                         https://github.com/lavindude/cannonball</a>
                 </p>
+                <p>**Note: To see all of the C# scripts I wrote, open up the GitHub repository and go to <i>
+                    Cannon Ball/Assets/Scripts</i>.</p>
             </div>
             <div class="calendar_bot">
                 <img id="calendar_bot_ss1" src="images/calendar_bot_ss_1.svg">
                 <img id="calendar_bot_ss2" src="images/calendar_bot_ss_2.svg">
-                <p>4. Calendar Discord Bot</p>
-                <p id="explanations">
+                <p id="project_titles">4. Calendar Discord Bot</p>
+                <p id="explanations" class="fix_calendar_margin_issue">
                     This is a discord bot that can keep track of events or deadlines in a discord server. For example, 
                     typing the command !addEvent 1.2 HW to AP Calc 9/4/2020 will parse the string and create a new row in 
                     a database table with the event type, date, and subject (which is the channel the event was added in). 
                 </p>
-                <p>
+                <p id="calendar_bot_explain_sources">
                     Languages/Technologies used: Python, Heroku, PostgreSQL
                 </p>
                 <p>
@@ -96,7 +98,7 @@
             </div>
             <div class="management_bot">
                 <img id="management_bot_ss" src="images/management_bot_ss.svg">
-                <p>
+                <p id="project_titles">
                     5. Server Management Discord Bot
                 </p>
                 <p id="explanations">
@@ -116,7 +118,7 @@
                         https://github.com/lavindude/ManagementBot</a>
                 </p>
             </div>
-            <p>Mini-Projects</p>
+            <p id="mini_projects_title">Mini-Projects</p>
             <div class="nfl_data_science">
                 <p id="explanations">
                     One small project I did about a year ago was an analysis of the Seattle Seahawks. I did some data filtering 
@@ -139,11 +141,11 @@
                 <p>GitHub Repository: <a href="https://github.com/lavindude/Election_Notification" target="_blank">
                     https://github.com/lavindude/Election_Notification</a></p>
             </div>
-            <p id="explanations">
+            <p id="conclusion">
                 Thank you for viewing my projects, I hope you enjoyed! If you were wondering, this website is hosted on GitHub and 
                 was made using HTML, CSS, and JavaScript. This is the source code for this project: 
                 <a href="https://github.com/lavindude/portfolio_website" target="_blank">
-                    https://github.com/lavindude/portfolio_website</a>
+                    https://github.com/lavindude/portfolio_website</a>.
             </p>
         </div>
         <div class="left_decorations">
@@ -187,6 +189,7 @@
                 <img id="shape_left" src="images/triangle.svg">
                 <img id="shape_left" src="images/circle.svg">
                 <img id="shape_left" src="images/triangle.svg">
+                <img id="shape_left" src="images/circle.svg">
         </div>
         <div class="right_decorations">
                 <img id="shape_right" src="images/circle.svg">
@@ -229,6 +232,7 @@
                 <img id="shape_right" src="images/triangle.svg">
                 <img id="shape_right" src="images/circle.svg">
                 <img id="shape_right" src="images/triangle.svg">
+                <img id="shape_right" src="images/circle.svg">
         </div>
     </body>
 </html>

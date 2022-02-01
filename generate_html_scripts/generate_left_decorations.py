@@ -7,7 +7,12 @@ for i in range(0, 20):
 	print('<img id=\"shape_left\" src=\"images/circle.svg\">')
 	print('<img id=\"shape_left\" src=\"images/triangle.svg\">')
 
+# have to do this because there is an odd number of shapes
+print('<img id=\"shape_left\" src=\"images/circle.svg\">') 
+
 # right decorations
 for i in range(0, 20):
 	print('<img id=\"shape_right\" src=\"images/circle.svg\">')
 	print('<img id=\"shape_right\" src=\"images/triangle.svg\">')
+
+print('<img id=\"shape_right\" src=\"images/circle.svg\">')

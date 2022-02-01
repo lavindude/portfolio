@@ -26,7 +26,7 @@ body {
     display: inline-flex;
     justify-content: center;
     border-radius: 100px;
-    width: 600px;
+    width: 900px;
     background-color: white;
 }
 
@@ -54,39 +54,94 @@ body {
     font-weight: bold;
 }
 
+#project_titles {
+    font-size: 35px;
+    font-weight: bold;
+}
+
 .covid_map {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .workmanager {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .cannon_ball {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .calendar_bot {
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#calendar_bot_ss1 {
+    padding: 10px;
+    width: 550px;
+}
+
+#calendar_bot_ss2 {
+    width: 550px;
+}
+
+.fix_calendar_margin_issue {
+    margin-block-start: 0;
+}
+
+/* One text block added extra space above and below so 
+   I added this to fix that issue */
+#calendar_bot_explain_sources {
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .management_bot {
     text-align: center;
 }
 
+#management_bot_ss {
+    width: 500px;
+}
+
+#mini_projects_title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-block-end: 0;
+}
+
 .nfl_data_science {
     text-align: center;
+}
+
+#nfl_ss {
+    width: 650px;
 }
 
 .notification_system {
     text-align: center;
 }
 
+#notification_ss {
+    width: 650px;
+}
+
 #explanations {
     text-align: left;
     width: 900px;
+}
+
+#conclusion {
+    text-align: left;
+    width: 900px;
+    font-size: 23px;
+    padding: 50px;
 }
 
 /* Left Decorations: */
