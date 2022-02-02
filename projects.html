@@ -7,13 +7,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/projects.css">
+        <script src="js/projects.js"></script>
     </head>
     <body>
         <div class="navbar_parent">
             <div class="navbar">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Me</a>
-                <a href="projects.html">Projects</a>
+                <a id="nav_bar_tabs" href="index.html">Home</a>
+                <a id="nav_bar_tabs" href="about.html">About Me</a>
+                <a id="nav_bar_tabs" href="projects.html">Projects</a>
             </div>
         </div>
         <div class="content">
@@ -41,7 +42,7 @@
                         https://github.com/lavindude/USCOVID</a>
                 </p>
             </div>
-            <div class="workmanager">
+            <div class="workmanager animate">
                 <img id="workmanager_ss" src="images/work_management_ss.svg">
                 <p id="project_titles">2. <a href="https://workmanager3.herokuapp.com" target="_blank">
                     https://workmanager3.herokuapp.com</a></p>
@@ -60,7 +61,7 @@
                         https://github.com/lavindude/workmanager_public</a>
                 </p>
             </div>
-            <div class="cannon_ball">
+            <div class="cannon_ball animate">
                 <img id="cannonball_gif" src="images/cannonball.gif">
                 <p id="project_titles">3. Cannon Ball!</p>
                 <p id="explanations">
@@ -79,7 +80,7 @@
                 <p>**Note: To see all of the C# scripts I wrote, open up the GitHub repository and go to <i>
                     Cannon Ball/Assets/Scripts</i>.</p>
             </div>
-            <div class="calendar_bot">
+            <div class="calendar_bot animate">
                 <img id="calendar_bot_ss1" src="images/calendar_bot_ss_1.svg">
                 <img id="calendar_bot_ss2" src="images/calendar_bot_ss_2.svg">
                 <p id="project_titles">4. Calendar Discord Bot</p>
@@ -96,7 +97,7 @@
                         https://github.com/lavindude/Calendar-Discord-Bot</a>
                 </p>
             </div>
-            <div class="management_bot">
+            <div class="management_bot animate">
                 <img id="management_bot_ss" src="images/management_bot_ss.svg">
                 <p id="project_titles">
                     5. Server Management Discord Bot
@@ -119,7 +120,7 @@
                 </p>
             </div>
             <p id="mini_projects_title">Mini-Projects</p>
-            <div class="nfl_data_science">
+            <div class="nfl_data_science animate">
                 <p id="explanations">
                     One small project I did about a year ago was an analysis of the Seattle Seahawks. I did some data filtering 
                     and then found a line of best fit to model the trend.
@@ -130,7 +131,7 @@
                         https://github.com/lavindude/NFL-Data-Science-Project</a>
                 </p>
             </div>
-            <div class="notification_system">
+            <div class="notification_system animate">
                 <p id="explanations">
                     Another project I made was an election notification system. The 2020 presidential election went a few days 
                     after election day and I wanted to get updates as soon as they were available. It was annoying to check election 
@@ -141,7 +142,7 @@
                 <p>GitHub Repository: <a href="https://github.com/lavindude/Election_Notification" target="_blank">
                     https://github.com/lavindude/Election_Notification</a></p>
             </div>
-            <p id="conclusion">
+            <p id="conclusion" class="animate">
                 Thank you for viewing my projects, I hope you enjoyed! If you were wondering, this website is hosted on GitHub and 
                 was made using HTML, CSS, and JavaScript. This is the source code for this project: 
                 <a href="https://github.com/lavindude/portfolio_website" target="_blank">

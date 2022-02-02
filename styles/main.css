@@ -56,6 +56,10 @@ a {
     padding: 35px;
 }
 
+#nav_bar_tabs:hover {
+    background-color: #62FF68;
+}
+
 /* ------------------------------------- */
 
 /* Middle container: */
@@ -92,7 +96,9 @@ a {
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #62FF68;
+    background: linear-gradient(
+        90deg
+        , #b3ffb6 0%, #00ff08 100%);
 }
 
 /* Left Decorations: */

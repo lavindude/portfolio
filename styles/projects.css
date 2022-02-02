@@ -39,6 +39,10 @@ body {
     padding: 35px;
 }
 
+#nav_bar_tabs:hover {
+    background-color: #62FF68;
+}
+
 /* ------------------------------------- */
 
 /* Content: */
@@ -183,3 +187,15 @@ body {
 }
 
 /* ------------------------------------------- */
+
+/* Animations: */
+.animate {
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    transform: scale(0.1);
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1);
+}
