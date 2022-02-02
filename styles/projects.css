@@ -199,3 +199,14 @@ body {
     opacity: 1;
     transform: scale(1);
 }
+
+/* Different screen sizes: */
+@media(max-width: 1298px) {
+    .left_decorations {
+        opacity: 0;
+    }
+
+    .right_decorations {
+        opacity: 0;
+    }
+}

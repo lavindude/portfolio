@@ -140,3 +140,14 @@ a {
 }
 
 /* ------------------------------------------- */
+
+/* Different screen sizes: */
+@media(max-width: 1039px) {
+    .left_decorations {
+        opacity: 0;
+    }
+
+    .right_decorations {
+        opacity: 0;
+    }
+}
